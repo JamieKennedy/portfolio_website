@@ -12,7 +12,7 @@
 
 body {
   height: 100%;
-  background-color: #00adb5;
+  background-color: #01e0ea;
 }
 
 p {
@@ -84,7 +84,7 @@ p {
 }
 
 .projectsContainer {
-  background-color: #00adb5;
+  background-color: #01e0ea;
   width: auto;
   height: 100%;
   overflow: hidden;
