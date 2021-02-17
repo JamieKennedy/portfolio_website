@@ -18,11 +18,13 @@ p {
 	width: auto;
 	height: auto;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .titleContainer {
-	float: left;
-	width: 70%;
+	width: 50%;
 	padding: 20pt;
 }
 
@@ -44,16 +46,16 @@ p {
 
 .socialsContainer {
 	padding: 10pt;
-	width: 250pt;
-	float: right;
+	width: 50%;
 }
 
 .social {
-	width: 400px;
-	padding-bottom: 20pt;
+	float: right;
+	width: 100%;
+	padding-bottom: 5pt;
 
 	.socialText {
-		width: 70%;
+		width: 90%;
 		float: left;
 		text-align: right;
 		padding-right: 10pt;
@@ -61,7 +63,7 @@ p {
 	}
 
 	.socialIcon {
-		width: 30%;
+		width: 10%;
 		float: right;
 	}
 }
