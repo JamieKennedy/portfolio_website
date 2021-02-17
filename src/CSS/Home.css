@@ -13,13 +13,17 @@
   background-color: #eeeeee;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
 
-.headerTitle {
+.titleContainer {
   float: left;
-  width: 50%;
+  width: 70%;
   padding: 20pt;
 }
 
@@ -37,9 +41,28 @@ p {
   font-size: 15pt;
 }
 
-.socialsRoot {
+.socialsContainer {
+  padding: 10pt;
+  width: 250pt;
   float: right;
-  width: 50%;
+}
+
+.social {
+  width: 400px;
+  padding-bottom: 20pt;
+}
+
+.socialText {
+  width: 70%;
+  float: left;
+  text-align: right;
+  padding-right: 10pt;
+  font-size: 12pt;
+}
+
+.socialIcon {
+  width: 30%;
+  float: right;
 }
 
 /*# sourceMappingURL=Home.css.map */
