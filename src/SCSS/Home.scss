@@ -1,18 +1,23 @@
 @import 'Fonts', 'Colours';
 
-.PageRoot {
-	width: auto;
-	height: auto;
-	overflow: hidden;
-	background-color: $palette1;
-}
-
 .pointer {
 	cursor: pointer;
 }
 
+body {
+	height: 100%;
+	background-color: $palette2;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
+}
+
+.headerContainer {
+	background-color: $palette1;
+	width: auto;
+	height: auto;
+	overflow: hidden;
 }
 
 .titleContainer {
@@ -46,17 +51,71 @@ p {
 .social {
 	width: 400px;
 	padding-bottom: 20pt;
+
+	.socialText {
+		width: 70%;
+		float: left;
+		text-align: right;
+		padding-right: 10pt;
+		font-size: 12pt;
+	}
+
+	.socialIcon {
+		width: 30%;
+		float: right;
+	}
 }
 
-.socialText {
-	width: 70%;
-	float: left;
-	text-align: right;
-	padding-right: 10pt;
-	font-size: 12pt;
+.aboutContainer {
+	background-color: $palette3;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+
+	.aboutTitle {
+		padding: 10pt;
+		color: #d6d6d6;
+		text-align: center;
+		font-size: 30pt;
+	}
 }
 
-.socialIcon {
-	width: 30%;
-	float: right;
+.projectsContainer {
+	background-color: $palette2;
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 50pt;
+}
+
+.tagButtonsContainer {
+	margin-top: 25pt;
+	margin-bottom: 25pt;
+	margin-left: 25%;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+	.tagButton {
+		min-width: 100pt;
+		padding: 5pt;
+		background-color: #c0fbfc;
+		border-radius: 150px;
+		border: 2pt solid black;
+
+		.tagText {
+			text-align: center;
+			font-size: 15pt;
+		}
+
+		&:hover {
+			background-color: #bebebe;
+		}
+
+		&.selected {
+			background-color: #676767;
+		}
+	}
 }

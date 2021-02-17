@@ -7,6 +7,7 @@ interface SocialLinkProps {
 }
 
 const SocialLink = ({ text, icon, link }: SocialLinkProps) => {
+	// redirect page if the link != null
 	const onClick = () => {
 		if (link) {
 			window.location.href = link;

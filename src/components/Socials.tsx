@@ -11,7 +11,6 @@ const Socials = () => {
 				link={'https://www.linkedin.com/in/jamiekennedy98/'}
 			/>
 			<SocialLink text={'jamiekennedy97@gmail.com'} icon={'envelope'} link={'mailto:jamiekennedy97@gmail.com'} />
-			{/*<SocialLink text={'07523266225'} icon={'phone'} link={null} />*/}
 			<SocialLink text={'Liverpool, UK'} icon={'map marker alternate'} link={null} />
 		</div>
 	);

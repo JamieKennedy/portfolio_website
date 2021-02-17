@@ -4,7 +4,7 @@ import Socials from './Socials';
 
 const Header = () => {
 	return (
-		<div>
+		<div className={'headerContainer'}>
 			<HeaderTitle />
 			<Socials />
 		</div>
