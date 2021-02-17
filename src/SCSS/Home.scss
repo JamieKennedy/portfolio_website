@@ -1,0 +1,39 @@
+@import 'Fonts', 'Colours';
+
+.PageRoot {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	background-color: $palette1;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.headerTitle {
+	float: left;
+	width: 50%;
+	padding: 20pt;
+}
+
+.title {
+	font-family: 'Prompt', sans-serif;
+	margin-bottom: 0;
+	color: #373737;
+
+	&.main {
+		font-size: 30pt;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	&.sub {
+		font-size: 15pt;
+	}
+}
+
+.socialsRoot {
+	float: right;
+	width: 50%;
+}
