@@ -38,7 +38,7 @@ const ProjectCard = ({ title, description, tags, setTags, currentTags }: Project
 				</div>
 			</div>
 			<div className="extra content">
-				<div className="ui medium blue labels">{renderTags}</div>
+				<div className="ui medium black labels">{renderTags}</div>
 			</div>
 		</div>
 	);

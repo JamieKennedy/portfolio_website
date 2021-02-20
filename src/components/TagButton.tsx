@@ -18,7 +18,7 @@ const TagButton = ({ tag, setTags, currentTags }: TagButtonProps) => {
 	};
 
 	return (
-		<div className={`ui label pointer ${currentTags.includes(tag) ? 'blue' : 'grey'}`} onClick={onClick}>
+		<div className={`ui label pointer ${currentTags.includes(tag) ? 'blue' : 'black'}`} onClick={onClick}>
 			<p className={'tagText'}>{tag}</p>
 		</div>
 	);

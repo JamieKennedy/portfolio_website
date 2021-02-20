@@ -18,7 +18,7 @@ const SocialLink = ({ text, icon, link }: SocialLinkProps) => {
 		<div className={`social ${link ? 'pointer' : ''}`} onClick={onClick}>
 			<div className={'socialText'}>{text}</div>
 			<div className={'socialIcon'}>
-				<i className={`${icon} icon large`} />
+				<i className={`blue ${icon} icon large`} />
 			</div>
 		</div>
 	);
